@@ -1,0 +1,96 @@
+.parent {
+  width: 1600px;
+  height: 800px;
+  background-image: url("https://images.pexels.com/photos/532568/pexels-photo-532568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  #text {
+    -webkit-text-fill-color: rgb(43, 40, 35);
+    font-weight: 800px;
+    font-size: 15px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: left;
+    text-emphasis-position: center;
+    padding: 250px 0;
+    margin-left: 35px;
+    border: 10px;
+    p {
+      padding-top: 40px;
+    }
+  }
+}
+.parent button {
+  margin-top: 30px;
+  border-top: 50px;
+  background-color: #afdaf6;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.parent button:hover {
+  background-color: #2f709e;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
+.container {
+  padding: 15px;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.card button {
+  background-color: #1c3c22;
+  color: rgb(229, 252, 220);
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #157422;
+}
